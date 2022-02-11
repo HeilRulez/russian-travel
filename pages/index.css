@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/Inter/inter.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+
+@import url(../blocks/image-title/image-title.css);
+@import url(../blocks/image-caption/image-caption.css);
+
+@import url(../blocks/discription/discription.css);
+@import url(../blocks/discription/__title/discription__title.css);
+@import url(../blocks/discription/__paragraph/discription__paragraph.css);
+@import url(../blocks/discription/__info/discription__info.css);
+
+@import url(../blocks/galary/galary.css);
+@import url(../blocks/galary/__photo-item/galary__photo-item.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content-item/content-item.css);
+@import url(../blocks/content-item/__title/content-item__title.css);
+@import url(../blocks/content-item/__url/content-item__url.css);
+@import url(../blocks/content-item/__link/content-item__link.css);
+@import url(../blocks/content-item/__discription/content-item__discription.css);
+@import url(../blocks/content-item/__photo-item/content-item__photo-item.css);
+
+@import url(../blocks/epilogue/epilogue.css);
+@import url(../blocks/epilogue/__link/epilogue__link.css);
+@import url(../blocks/epilogue/__title/epilogue__title.css);
+@import url(../blocks/epilogue/__subtitle/epilogue__subtitle.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
