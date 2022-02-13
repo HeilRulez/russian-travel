@@ -1,9 +1,30 @@
+@media screen and (max-width: 767px){
+  .header {
+    margin: 0 16px;
+    padding-top: 16px;
+    height: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin: 0 24px;
+    padding-top: 28px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 0 48px;
+    padding-top: 28px;
+    height: 52px;
+  }
+}
+
 .header {
-  height: 52px;
-  position: relative;
   display: flex;
   justify-content: end;
   align-items: end;
-  margin: 0 auto;
-  padding: 28px 0 0;
+  position: relative;
 }

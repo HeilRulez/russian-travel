@@ -1,5 +1,27 @@
-.into {
-  width: 690px;
-  min-height: 429px;
-  padding: 92px 0 92px 136px;
+@media screen and (max-width: 767px) {
+  .into {
+    min-width: 288px;
+    padding: 64px 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .into {
+    width: 720px;
+    padding: 88px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .into {
+    width: 690px;
+    padding: 92px 0 92px 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .into {
+    width: 690px;
+    padding: 92px 0 92px 148px;
+  }
 }
