@@ -33,4 +33,5 @@
 .photo-grid {
   display: grid;
   grid-auto-rows: auto;
+  margin: 0 auto;
 }
