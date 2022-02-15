@@ -5,6 +5,5 @@
 }
 
 .place__website {
-  grid-area: 1 / 2 / 2 / 3;
   align-self: end;
 }

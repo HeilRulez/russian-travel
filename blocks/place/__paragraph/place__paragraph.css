@@ -12,8 +12,6 @@
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
-    grid-area: 2 / 2 / 3 / 3;
-    /* grid-column-start: 2; */
     margin: 0;
   }
 }

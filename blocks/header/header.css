@@ -1,3 +1,10 @@
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+}
+
 @media screen and (max-width: 767px){
   .header {
     margin: 0 16px;
@@ -17,14 +24,5 @@
 @media screen and (min-width: 1024px) {
   .header {
     margin: 0 48px;
-    padding-top: 28px;
-    height: 52px;
   }
-}
-
-.header {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  position: relative;
 }

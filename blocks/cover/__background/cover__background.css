@@ -1,0 +1,32 @@
+.cover__background {
+  background-image: url(../../../images/cover/cover-trains.jpg);
+  height: 740px;
+  width: 1184px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* @media screen and (max-width: 767px) {
+  .cover__background {
+    background-image: url(../../../images/cover/cover-trains_smart.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__background {
+    background-image: url(../../../images/cover/cover-trains_tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__background {
+    background-image: url(../../../images/cover/cover-trains_desktop.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    min-height: 740px;
+    max-width: 1184px;
+  }
+} */
