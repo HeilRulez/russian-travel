@@ -1,12 +1,21 @@
 .cover__background {
   background-image: url(../../../images/cover/cover-trains.jpg);
-  height: 740px;
-  width: 1184px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .cover__background {
     background-image: url(../../../images/cover/cover-trains_smart.jpg);
   }
@@ -23,10 +32,3 @@
     background-image: url(../../../images/cover/cover-trains_desktop.jpg);
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .cover__background {
-    min-height: 740px;
-    max-width: 1184px;
-  }
-} */
