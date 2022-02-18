@@ -1,26 +1,26 @@
 @media screen and (max-width: 767px) {
-  .into {
+  .intro {
     min-width: 288px;
     padding: 64px 16px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .into {
+  .intro {
     width: 720px;
     padding: 88px 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .into {
+  .intro {
     width: 690px;
     padding: 92px 0 92px 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .into {
+  .intro {
     width: 690px;
     padding: 92px 0 92px 148px;
   }
