@@ -1,14 +1,7 @@
 .footer {
   display: flex;
-}
-
-@media screen and (max-width: 767px){
-  .footer {
-    flex-direction: column;
-    padding-top: 64px;
-    padding-bottom: 24px;
-    padding-left: 16px;
-  }
+  flex-direction: column;
+  padding: 64px 0 24px 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -25,4 +18,3 @@
     min-height: 18px;
   }
 }
-
