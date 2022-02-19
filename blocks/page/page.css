@@ -1,6 +1,8 @@
 .page {
   background-color: #2A2C2F;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: #fff;
   margin: 0 auto;
 }
@@ -26,6 +28,5 @@
 @media screen and (min-width: 1280px) {
   .page {
     min-width: 1280px;
-    max-width: 1440px;
   }
 }
