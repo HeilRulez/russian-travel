@@ -6,12 +6,13 @@
 
 @media screen and (min-width: 1024px) {
   .lead {
-    width: calc(100% - 56px);
+    width: calc(100% - 96px);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
     width: calc(100% - 296px);
+    padding: 56px 0 0;
   }
 }
