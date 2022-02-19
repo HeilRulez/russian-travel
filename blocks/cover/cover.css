@@ -3,4 +3,17 @@
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+  padding-top: 66px
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    padding-top: 92px;
+  }
 }

@@ -12,7 +12,7 @@
     row-gap: 48px;
     column-gap: 28px;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: 340px minmax(min-content, max-content);
+    grid-template-columns: 340px minmax(min-content, 100%);
     padding-bottom: 73px;
   }
 }
@@ -28,6 +28,6 @@
 @media screen and (min-width: 1280px) {
   .place {
     column-gap: 40px;
-    grid-template-columns: 460px minmax(min-content, max-content);
+    grid-template-columns: 460px minmax(min-content, 484px);
   }
 }
