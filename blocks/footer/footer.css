@@ -1,7 +1,9 @@
 .footer {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   padding: 64px 0 24px 16px;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
@@ -15,6 +17,6 @@
 @media screen and (min-width: 1024px) {
   .footer {
     padding: 92px 48px 24px;
-    min-height: 18px;
+    max-width: 1280px;
   }
 }
